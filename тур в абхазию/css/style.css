@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Roboto';
+}
+/*-------шапка сайта------ */
+.header {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding-top: 50px;
+    
+}
+.wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.list .item {
+    list-style: none;
+}
+.item .icons {
+    margin-bottom: 8px;
+}
+/*--------заголовок-------- */
+
+.title-text {
+padding-top: 178px;
+color: #000;
+font-size: 60px;
+font-style: normal;
+font-weight: 600;
+margin-bottom: 80px;
+}
+.image-tur {
+    margin-bottom: 60px;
+}
+/*------текст под картинкой основная часть hero----*/
+.glav-main {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    
+}
+.text-about {
+    max-width: 568px;
+color: #000;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+}
+/*-----------стилизация формы--------- */
+.wrapper-img {
+    max-width: 1150px;
+    margin: 0 auto;
+    border-radius: 20px;
+    background: #F1F1F1;
+}
+.glav-block-form {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 50px;
+}
+.tur-text {
+    max-width: 518px;
+    color: #000;
+font-size: 46px;
+font-style: normal;
+font-weight: 600;
+line-height: 54px;
+margin-bottom: 123px; 
+}
+.form-fields {
+display: flex;
+width: 416px;
+padding: 11px 24px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 10px;
+background: #FFF;
+margin-bottom: 8px;
+}
+.text-input {
+    border: none;
+    margin-top: 7px;
+    margin-bottom: ;
+}
+label {
+    color: #000;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+}
+.bottom-text {
+    margin-bottom: 35px;
+}
+
+
+/*-------стилизация кнопки-----*/
+.button {
+    padding: 11px 54px;
+    color: #FFF;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+border-radius: 10px;
+background: var(--accent-day-brand, #3D3BFF);
+border: none;
+margin-bottom: 48px;
+}
+.button:hover {
+    opacity: .75;
+   background: #151444;
+}
